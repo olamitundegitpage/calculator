@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background: rgb(200, 200, 234);
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+   
+}
+
+.calculator{
+    background-color: rgb(23, 23, 41);
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    /* height: 100px; */
+}
+form input{
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+    border: none;
+    /* background-color: black; */
+    /* color: white; */
+    border-radius: 5px;
+    box-shadow: -2px -2px 5px rgb(196, 196, 199), 2px 2px 5px rgb(196, 196, 199);
+}
+
+form .display input{
+    width: 443px;
+    padding: 5px;
+    text-align: end;
+}
+
+form .equal {
+    width: 215px;
+}
+
+@media screen and (max-width: 360px) {
+    .container{
+        background: rgb(200, 200, 234);
+        height: 100vh;
+        align-content: center;
+        justify-content: center;
+        display: flex;
+        width: 200%;
+       
+    }
+
+    .calculator{
+        background-color: rgb(23, 23, 41);
+        padding: 20px;
+        margin: auto;
+        border-radius: 10px;
+        /* height: 100px; */
+    }
+
+    form input{
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+        border: none;
+        /* background-color: black; */
+        /* color: white; */
+        border-radius: 5px;
+        box-shadow: -2px -2px 5px rgb(196, 196, 199), 2px 2px 5px rgb(196, 196, 199);
+    }
+
+    form .display input{
+        width: 243px;
+        padding: 5px;
+        text-align: end;
+    }
+    
+    form .equal {
+        width: 115px;
+    }
+}
